@@ -85,7 +85,6 @@ namespace WinFormsApp1
                     canLugar = false;
                     break;
                 }
-
                 filaActual += dfila;
                 colActual += dCol;
 
@@ -116,7 +115,6 @@ namespace WinFormsApp1
             {
                 for (int j = 0;j < Tamaño; i++)
                 {
-                    //Validacion
                     if (Celda[i, j] == ' ')
                         Celda[i, j] = (char)('A' + random.Next(0, 26));//Tomar todas las letras de manera aleatoria
                 }
